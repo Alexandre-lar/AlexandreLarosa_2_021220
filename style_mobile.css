@@ -1,0 +1,292 @@
+.page_Reservia {
+  width: 425px;
+  margin: auto;
+}
+
+/* logo */
+
+.logo {
+  padding-left: 18px;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  width: 425px;
+}
+
+header ul li {
+  padding-left: 45px;
+}
+
+header ul {
+  border-bottom: 2px solid #deebff;
+  padding-bottom: 10px;
+}
+
+header a:hover {
+  border-top: none;
+  border-bottom: 3px solid blue;
+  padding-bottom: 10px;
+}
+
+/* Section en bas */
+
+/* Input */
+
+input {
+  width: 270px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-left: 20px;
+  font-size: 19px;
+}
+
+.fa-map-marker-alt {
+  font-size: 18px;
+  padding: 14px;
+}
+
+.Filters_search {
+  margin-left: 0px;
+  width: 350px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Filters_search p {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.blue_button {
+  padding-top: 10px;
+  padding-bottom: 28px;
+  padding-right: 31px;
+  padding-left: 13px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blue_button span {
+  visibility: hidden;
+  position: absolute;
+}
+
+.fa-search {
+  visibility: visible;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+/* Filtre */
+
+.Filtre {
+  display: flex;
+  width: 425px;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+#Eco {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
+  width: 230px;
+  border: 1px solid #deebff;
+}
+
+#Famille {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 230px;
+  border: 1px solid #deebff;
+}
+
+#Romantique {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 230px;
+  border: 1px solid #deebff;
+}
+
+#Animaux {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 290px;
+  border: 1px solid #deebff;
+}
+
+.titre_prin {
+  display: block;
+}
+
+#Eco h4 {
+  font-size: 22px;
+  margin-left: 27px;
+}
+
+#Famille h4 {
+  margin-left: 36px;
+  font-size: 22px;
+}
+
+#Romantique h4 {
+  font-size: 22px;
+  margin-left: 28px;
+}
+
+#Animaux {
+  font-size: 22px;
+}
+/* Info */
+
+.Info {
+  width: 400px;
+  font-size: 18px;
+}
+/* Aside */
+
+.titre_pop {
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+.titre_pop i {
+  font-size: 20px;
+  padding-left: 140px;
+}
+aside {
+  margin-left: 0px;
+  border-radius: 0px;
+}
+
+.pop {
+  margin-left: 18px;
+  margin-bottom: 10px;
+  width: 385px;
+}
+
+.populaire {
+  margin-bottom: 30px;
+}
+aside figcaption {
+  font-size: 16px;
+}
+
+.stars_pop {
+  font-size: 13px;
+}
+
+/* Section gauche */
+
+.corps_haut {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 300px;
+}
+.gauche {
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 0px;
+}
+
+#Hébergement {
+  padding-left: 15px;
+}
+
+.gauche {
+  margin-top: 10px;
+}
+
+.list_heb {
+  display: flex;
+  flex-direction: column;
+}
+
+.hebergement {
+  width: 385px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.section_heb {
+  width: 375px;
+  padding-right: 2px;
+  padding-top: 1px;
+}
+
+/* Section bas */
+
+#Activités {
+  margin-left: 18px;
+}
+
+.bas {
+  display: block;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+.bas figure {
+  width: 385px;
+  height: 170px;
+  margin-top: 15px;
+}
+
+.bas figure img {
+  width: 383px;
+  height: 120px;
+}
+
+.un {
+  margin-left: 0px;
+}
+
+.deux {
+  margin-left: 0px;
+}
+
+/* Footer */
+
+Footer {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* A propos */
+
+.A_propos {
+  margin-left: 18px;
+  margin-top: 40px;
+}
+
+.A_propos ul li {
+  line-height: 30px;
+}
+
+/* Nos hébergements */
+
+.Heb {
+  margin-left: 18px;
+  margin-top: 0px;
+}
+
+.Heb ul li {
+  line-height: 30px;
+}
+
+/* Assistance */
+
+.Assist {
+  margin-left: 18px;
+  margin-top: 0px;
+}
+
+.Assist ul li {
+  line-height: 30px;
+}
