@@ -1,0 +1,119 @@
+.page_Reservia {
+  width: auto;
+}
+
+/* Header + nav  */
+
+.logo {
+  padding-left: 10px;
+}
+
+nav ul {
+  margin-left: 100px;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+/* Input */
+
+input {
+  width: 200px;
+}
+
+/* Filtres */
+
+.Filtre {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+#Eco {
+  height: 40px;
+}
+
+#Famille {
+  height: 40px;
+}
+
+#Romantique {
+  height: 40px;
+}
+
+#Animaux {
+  margin-top: 10px;
+  margin-left: 78px;
+}
+
+.Filters_search {
+  margin-left: 10px;
+}
+
+/* Section hébergement + populaire */
+
+.corps_haut {
+  display: block;
+  margin-top: 40px;
+}
+
+.gauche {
+  margin-left: 0px;
+}
+
+.gauche figure {
+  width: 240px;
+  height: 200px;
+}
+
+.section_heb {
+  width: 227px;
+  height: 110px;
+}
+
+aside {
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 450px;
+}
+
+/* Activités Marseille */
+
+#Activités {
+  margin-left: 40px;
+}
+
+.bas {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 60px;
+}
+
+.Calanques {
+  margin-top: 0px;
+}
+
+.un {
+  margin-bottom: 90px;
+}
+/* Footer */
+
+Footer {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.A_propos {
+  margin-left: 0px;
+}
+
+.Heb {
+  margin-left: 0px;
+}
+
+.Assist {
+  margin-left: 0px;
+}
