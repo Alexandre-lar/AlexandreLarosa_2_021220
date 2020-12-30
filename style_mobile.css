@@ -3,6 +3,9 @@
   margin: auto;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
 /* logo */
 
 .logo {
@@ -28,6 +31,18 @@ header a:hover {
   border-top: none;
   border-bottom: 3px solid blue;
   padding-bottom: 10px;
+}
+
+#Inscription {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-top: 45px;
+  padding-right: 20px;
+}
+
+.Activités {
+  margin-left: 100px;
 }
 
 /* Section en bas */
