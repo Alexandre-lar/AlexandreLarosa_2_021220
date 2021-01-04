@@ -28,6 +28,7 @@ input {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
+  width: 800px;
 }
 
 #Eco {
@@ -63,13 +64,13 @@ input {
 }
 
 .gauche figure {
-  width: 240px;
-  height: 200px;
+  width: 250px;
+  height: 210px;
 }
 
 .section_heb {
-  width: 227px;
-  height: 110px;
+  width: 237px;
+  height: 120px;
 }
 
 aside {
