@@ -33,6 +33,10 @@ header a:hover {
   padding-bottom: 10px;
 }
 
+#Inscription a:hover {
+  border: none;
+}
+
 #Inscription {
   position: absolute;
   top: 0px;
