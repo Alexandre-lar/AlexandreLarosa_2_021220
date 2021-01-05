@@ -73,6 +73,9 @@ input {
   height: 120px;
 }
 
+.Afficher_plus {
+  padding-bottom: 20px;
+}
 aside {
   margin-left: 150px;
   margin-top: 20px;
