@@ -338,11 +338,11 @@ input:focus {
 /* Aside */
 
 aside {
-  flex: 0.27;
+  flex: 0.26;
   display: flex;
   background-color: #f2f2f2;
   height: 670px;
-
+  padding-right: 35px;
   border-radius: 28px;
   margin-left: 40px;
   flex-direction: column;
