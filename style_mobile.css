@@ -1,10 +1,12 @@
 .page_Reservia {
-  width: 425px;
+  width: auto;
   margin: auto;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
 }
 /* logo */
 
@@ -15,7 +17,7 @@ body {
 header {
   display: flex;
   flex-flow: row wrap;
-  width: 425px;
+  width: auto;
 }
 
 header ul li {
@@ -46,7 +48,7 @@ header a:hover {
 }
 
 .Hébergement a {
-  padding-left: 50px;
+  padding-left: 45px;
   padding-right: 50px;
 }
 
@@ -60,7 +62,7 @@ header a:hover {
 /* Input */
 
 input {
-  width: 270px;
+  width: 250px;
   font-weight: bold;
   padding-top: 16px;
   padding-left: 20px;
@@ -76,7 +78,7 @@ input {
   margin-left: 0px;
   width: 350px;
   font-size: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .Filters_search p {
@@ -187,12 +189,17 @@ input {
 aside {
   margin-left: 0px;
   border-radius: 0px;
+  width: 380px;
 }
 
 .pop {
-  margin-left: 18px;
+  margin-left: 10px;
   margin-bottom: 10px;
-  width: 385px;
+  width: 355px;
+}
+
+.img_pop {
+  width: 140px;
 }
 
 .populaire {
@@ -200,6 +207,7 @@ aside {
 }
 aside figcaption {
   font-size: 16px;
+  padding-left: 8px;
 }
 
 .stars_pop {
@@ -212,6 +220,7 @@ aside figcaption {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 300px;
+  width: 400px;
 }
 .gauche {
   background-color: white;
@@ -233,13 +242,13 @@ aside figcaption {
 }
 
 .hebergement {
-  width: 385px;
-  margin-left: 18px;
+  width: 355px;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 
 .section_heb {
-  width: 375px;
+  width: 345px;
   padding-right: 2px;
   padding-top: 1px;
 }
@@ -247,23 +256,23 @@ aside figcaption {
 /* Section bas */
 
 #Activités {
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 .bas {
   display: block;
   flex-direction: column;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 .bas figure {
-  width: 385px;
+  width: 355px;
   height: 170px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .bas figure img {
-  width: 383px;
+  width: 353px;
   height: 120px;
 }
 
