@@ -55,12 +55,14 @@ input {
 /* Section hébergement + populaire */
 
 .corps_haut {
-  display: block;
+  display: flex;
+  flex-flow: column-reverse;
   margin-top: 40px;
 }
 
 .gauche {
   margin-left: 0px;
+  margin-top: 20px;
 }
 
 .gauche figure {
@@ -77,9 +79,9 @@ input {
   padding-bottom: 20px;
 }
 aside {
-  margin-left: 150px;
   margin-top: 20px;
   width: 450px;
+  margin-left: 0px;
 }
 
 /* Activités Marseille */
@@ -100,6 +102,11 @@ aside {
 
 .un {
   margin-bottom: 90px;
+  margin-left: 50px;
+}
+
+.deux {
+  margin-left: 50px;
 }
 /* Footer */
 
