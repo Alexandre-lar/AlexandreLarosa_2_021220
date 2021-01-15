@@ -216,12 +216,16 @@ input {
 
 .titre_pop {
   padding-left: 18px;
-  font-size: 14px;
+}
+
+.titre_pop h2 {
+  padding-top: 4px;
 }
 
 .titre_pop i {
-  font-size: 20px;
-  padding-left: 140px;
+  font-size: 25px;
+  position: absolute;
+  left: 215px;
 }
 aside {
   margin-left: 0px;
@@ -244,11 +248,16 @@ aside {
 }
 aside figcaption {
   font-size: 16px;
-  padding-left: 8px;
+  padding-left: 22px;
+}
+
+aside figcaption p {
+  margin-top: 8px;
 }
 
 .stars_pop {
-  font-size: 13px;
+  font-size: 12px;
+  padding-top: 26px;
 }
 
 /* Section gauche */
