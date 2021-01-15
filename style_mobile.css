@@ -119,32 +119,39 @@ input {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-top: 20px;
-  width: 230px;
-  border: 1px solid #deebff;
+  width: 200px;
+  height: 55px;
+  border: 2px solid #deebff;
 }
 
 #Famille {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-top: 0px;
-  width: 230px;
-  border: 1px solid #deebff;
+  width: 155px;
+  height: 55px;
+  border: 2px solid #deebff;
+  position: absolute;
+  top: 414px;
+  left: 215px;
 }
 
 #Romantique {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-top: 0px;
-  width: 230px;
-  border: 1px solid #deebff;
+  width: 200px;
+  height: 55px;
+  border: 2px solid #deebff;
 }
 
 #Animaux {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-top: 0px;
-  width: 290px;
-  border: 1px solid #deebff;
+  width: 260px;
+  height: 55px;
+  border: 2px solid #deebff;
 }
 
 .titre_prin {
@@ -152,23 +159,53 @@ input {
 }
 
 #Eco h4 {
-  font-size: 22px;
-  margin-left: 27px;
+  font-size: 20px;
+  margin-left: 6px;
+  margin-top: 14px;
 }
 
 #Famille h4 {
-  margin-left: 36px;
-  font-size: 22px;
+  margin-left: 8px;
+  margin-top: 14px;
+  font-size: 20px;
 }
 
 #Romantique h4 {
-  font-size: 22px;
-  margin-left: 28px;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-top: 14px;
 }
 
-#Animaux {
-  font-size: 22px;
+#Animaux h4 {
+  font-size: 20px;
+  margin-left: 8px;
+  margin-top: 14px;
 }
+
+.fa-child {
+  font-size: 22px;
+  padding: 15px;
+  padding-right: 17px;
+}
+
+.fa-money-bill-wave {
+  font-size: 22px;
+  padding: 15px;
+  padding-right: 14px;
+}
+
+.fa-heart {
+  font-size: 22px;
+  padding: 15px;
+  padding-right: 16px;
+}
+
+.fa-dog {
+  font-size: 22px;
+  padding: 15px;
+  padding-right: 14px;
+}
+
 /* Info */
 
 .Info {
