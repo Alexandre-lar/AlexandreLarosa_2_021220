@@ -1,5 +1,6 @@
 .page_Reservia {
   width: auto;
+  overflow-x: hidden;
 }
 
 /* Header + nav  */
@@ -9,7 +10,7 @@
 }
 
 nav ul {
-  margin-left: 100px;
+  padding-left: 130px;
 }
 
 nav ul li {
@@ -32,15 +33,15 @@ input {
 }
 
 #Eco {
-  height: 40px;
+  height: 43px;
 }
 
 #Famille {
-  height: 40px;
+  height: 43px;
 }
 
 #Romantique {
-  height: 40px;
+  height: 43px;
 }
 
 #Animaux {
@@ -63,15 +64,18 @@ input {
 .gauche {
   margin-left: 0px;
   margin-top: 20px;
+  display: flex;
+  width: 48%;
+  flex-flow: row wrap;
 }
 
 .gauche figure {
-  width: 250px;
+  width: 240px;
   height: 210px;
 }
 
 .section_heb {
-  width: 237px;
+  width: 227px;
   height: 120px;
 }
 
@@ -93,7 +97,7 @@ aside {
 .bas {
   display: flex;
   flex-flow: row wrap;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .Calanques {
