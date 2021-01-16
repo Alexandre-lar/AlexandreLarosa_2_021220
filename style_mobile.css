@@ -11,7 +11,7 @@ body {
 /* logo */
 
 .logo {
-  padding-left: 18px;
+  padding-left: 10px;
 }
 
 header {
@@ -63,17 +63,27 @@ header a:hover {
 
 /* Input */
 
+.Titre_secondaire {
+  margin-left: 10px;
+}
+
+.Input {
+  margin-left: 10px;
+}
+
 input {
-  width: 250px;
+  width: 235px;
   font-weight: bold;
-  padding-top: 16px;
+  padding-top: 12px;
   padding-left: 20px;
   font-size: 19px;
 }
 
 .fa-map-marker-alt {
-  font-size: 18px;
+  font-size: 15px;
   padding: 14px;
+  padding-left: 17px;
+  padding-right: 18px;
 }
 
 .Filters_search {
@@ -91,9 +101,9 @@ input {
 .blue_button {
   padding-top: 10px;
   padding-bottom: 28px;
-  padding-right: 31px;
-  padding-left: 13px;
-  border-radius: 10px;
+  padding-right: 33px;
+  padding-left: 14px;
+  border-radius: 14px;
   cursor: pointer;
 }
 
@@ -119,10 +129,10 @@ input {
 
 #Eco {
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 6px;
   margin-top: 20px;
-  width: 200px;
-  height: 55px;
+  width: 185px;
+  height: 52px;
   border: 2px solid #deebff;
 }
 
@@ -130,102 +140,102 @@ input {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-top: 0px;
-  width: 155px;
-  height: 55px;
+  width: 140px;
+  height: 52px;
   border: 2px solid #deebff;
   position: absolute;
-  top: 414px;
+  top: 411px;
   left: 215px;
 }
 
 #Romantique {
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 6px;
   margin-top: 0px;
-  width: 200px;
-  height: 55px;
+  width: 180px;
+  height: 52px;
   border: 2px solid #deebff;
 }
 
 #Animaux {
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 6px;
   margin-top: 0px;
-  width: 260px;
-  height: 55px;
+  width: 240px;
+  height: 52px;
   border: 2px solid #deebff;
 }
 
 .titre_prin {
   display: block;
+  margin-left: 10px;
 }
 
 #Eco h4 {
-  font-size: 20px;
-  margin-left: 6px;
-  margin-top: 14px;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 #Famille h4 {
-  margin-left: 8px;
-  margin-top: 14px;
-  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 18px;
 }
 
 #Romantique h4 {
-  font-size: 20px;
-  margin-left: 8px;
-  margin-top: 14px;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 #Animaux h4 {
-  font-size: 20px;
-  margin-left: 8px;
-  margin-top: 14px;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .fa-child {
-  font-size: 22px;
-  padding: 15px;
-  padding-right: 17px;
+  font-size: 21px;
+  padding: 14px;
 }
 
 .fa-money-bill-wave {
-  font-size: 22px;
-  padding: 15px;
-  padding-right: 14px;
+  font-size: 21px;
+  padding: 14px;
 }
 
 .fa-heart {
-  font-size: 22px;
-  padding: 15px;
-  padding-right: 16px;
+  font-size: 21px;
+  padding: 14px;
 }
 
 .fa-dog {
-  font-size: 22px;
-  padding: 15px;
-  padding-right: 14px;
+  font-size: 21px;
+  padding: 14px;
 }
 
 /* Info */
 
 .Info {
-  width: 400px;
-  font-size: 18px;
+  width: 360px;
+  font-size: 17px;
+  margin-left: 10px;
 }
+
 /* Aside */
 
 .titre_pop {
-  padding-left: 18px;
+  padding-left: 15px;
+  font-size: 14px;
 }
 
 .titre_pop h2 {
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 .titre_pop i {
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   left: 215px;
 }
@@ -233,6 +243,7 @@ aside {
   margin-left: 0px;
   border-radius: 0px;
   width: 380px;
+  height: 590px;
 }
 
 .pop {
@@ -277,7 +288,10 @@ aside figcaption p {
 }
 
 #Hébergement {
+  padding-top: 25px;
+  padding-bottom: 20px;
   padding-left: 15px;
+  font-size: 21px;
 }
 
 .gauche {
@@ -301,10 +315,21 @@ aside figcaption p {
   padding-top: 1px;
 }
 
+.Afficher_plus {
+  padding-top: 13px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.stars {
+  font-size: 12px;
+}
+
 /* Section bas */
 
 #Activités {
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-top: 45px;
+  font-size: 21px;
 }
 
 .bas {
