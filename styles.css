@@ -134,6 +134,7 @@ input:focus {
   flex-direction: row;
   flex-flow: row nowrap;
   margin-top: 30px;
+  margin-left: 5px;
 }
 
 #Eco {
@@ -265,11 +266,13 @@ input:focus {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
+  margin-left: 8px;
 }
 
 .fa-info-circle {
   color: #0065fc;
   padding-right: 10px;
+  font-size: 20px;
 }
 
 /* Corps haut */
@@ -357,7 +360,7 @@ aside {
   width: 435px;
   padding-right: 35px;
   border-radius: 28px;
-  margin-left: 40px;
+  margin-left: 45px;
   flex-direction: column;
 }
 
