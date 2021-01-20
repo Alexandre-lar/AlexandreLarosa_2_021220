@@ -1,135 +1,364 @@
-.page_Reservia {
-  width: auto;
-  height: 3180px;
-  overflow-x: hidden;
+@media screen and (min-width: 1032px) and (max-width: 1395px) {
+  #Page_Reservia {
+    margin-left: 20px;
+    overflow-x: hidden;
+  }
+
+  /* Hébergement + Les plus populaires */
+
+  .corps_haut {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  /* Les plus populaires */
+
+  .populaire {
+    max-width: 550px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pop {
+    min-width: 460px;
+    max-width: 470px;
+  }
+
+  /* Hébergement*/
+  .gauche {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Activités */
+
+  .bas {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1099px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Activités {
+    margin-left: 10px;
+  }
+  /* Vieux port */
+
+  .Vieux_port {
+    width: 220px;
+    height: 400px;
+  }
+
+  .Vieux_port img {
+    width: 220px;
+    height: 352px;
+  }
+
+  /* Fort Pomègues */
+
+  .Fort_Pomègues {
+    width: 240px;
+    height: 210px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .Fort_Pomègues img {
+    width: 240px;
+    height: 165px;
+  }
+
+  /* Iles du Frioul */
+
+  .Frioul {
+    width: 240px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .Frioul img {
+    width: 240px;
+  }
+
+  /* Parc National */
+
+  .Calanques {
+    width: 220px;
+    height: 410px;
+  }
+
+  .Calanques img {
+    width: 220px;
+    height: 352px;
+  }
+
+  /* Notre Dame */
+
+  .Notre_dame {
+    width: 240px;
+    height: 210px;
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+
+  .Notre_dame img {
+    width: 240px;
+    height: 165px;
+  }
+
+  /* Longchamps */
+
+  .Longchamp {
+    width: 250px;
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+
+  .Longchamp img {
+    width: 250px;
+  }
+
+  .deux {
+    margin-left: 5px;
+  }
+
+  /* Footer */
+
+  .A_propos {
+    margin-left: 30px;
+  }
+
+  .Heb {
+    margin-left: 150px;
+  }
+
+  .Assist {
+    margin-left: 150px;
+  }
 }
 
-/* Header + nav  */
+@media screen and (max-width: 1031px) and (min-width: 760px) {
+  #Page_Reservia {
+    overflow-x: hidden;
+    margin-left: 2px;
+  }
 
-.logo {
-  padding-left: 10px;
+  .corps_haut {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  /* Filtres */
+
+  .Filtre {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 822px;
+  }
+
+  #Animaux {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  /* Les plus populaires */
+
+  .populaire {
+    margin-left: 0px;
+    max-width: 440px;
+    margin-bottom: 20px;
+  }
+
+  /* Hébergements */
+
+  .hebergement {
+    margin-left: 0px;
+  }
+
+  /*  Activités */
+
+  .bas {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 990px;
+  }
+
+  .deux {
+    margin-left: 53px;
+  }
+
+  /* Footer */
+
+  .A_propos {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .Heb {
+    margin-left: 80px;
+    font-size: 14px;
+  }
+
+  .Assist {
+    margin-left: 100px;
+    font-size: 14px;
+  }
 }
 
-nav ul {
-  padding-left: 130px;
-}
+@media screen and (max-width: 759px) and (min-width: 550px) {
+  #Page_Reservia {
+    overflow-x: hidden;
+    margin-left: 5px;
+  }
 
-nav ul li {
-  margin-left: 10px;
-}
+  /* Filtres */
 
-/* Input */
+  .Filtre {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 600px;
+  }
 
-input {
-  width: 200px;
-}
+  /* Hebergement + populaire */
 
-/* Filtres */
+  .corps_haut {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.Filtre {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  width: 800px;
-}
+  /* Les plus populaires */
 
-#Eco {
-  height: 43px;
-}
+  .populaire {
+    margin-left: 0px;
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
 
-#Famille {
-  height: 43px;
-}
+  /* Hebergement */
 
-#Romantique {
-  height: 43px;
-}
+  .list_heb {
+    display: flex;
+    flex-direction: row;
+    max-height: 800px;
+    max-width: 700px;
+  }
 
-#Animaux {
-  margin-top: 10px;
-  margin-left: 78px;
-}
+  .hebergement {
+    margin-left: 10px;
+  }
 
-.Filters_search {
-  margin-left: 10px;
-}
+  /* Activités */
 
-/* Section hébergement + populaire */
+  #Activités {
+    margin-left: 10px;
+  }
 
-.corps_haut {
-  display: flex;
-  flex-flow: column-reverse;
-  margin-top: 40px;
-}
+  .bas {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .bas figure {
+    margin-left: 5px;
+    margin-right: 0px;
+  }
 
-.gauche {
-  margin-left: 0px;
-  margin-top: 20px;
-  display: flex;
-  width: 48%;
-  flex-flow: row wrap;
-}
+  .un {
+    margin-left: 35px;
+    margin-right: 0px;
+  }
 
-.gauche figure {
-  width: 240px;
-  height: 210px;
-}
+  .deux {
+    margin-left: 35px;
+    margin-right: 0px;
+  }
 
-.section_heb {
-  width: 227px;
-  height: 120px;
-}
+  /* Vieux port */
 
-.Afficher_plus {
-  padding-bottom: 20px;
-}
-aside {
-  margin-top: 20px;
-  width: 450px;
-  margin-left: 0px;
-}
+  .Vieux_port {
+    height: 380px;
+    width: 240px;
+  }
 
-/* Activités Marseille */
+  .Vieux_port img {
+    height: 330px;
+    width: 240px;
+  }
 
-#Activités {
-  margin-left: 40px;
-}
+  /* Fort de Pomègues */
 
-.bas {
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: 50px;
-}
+  .Fort_Pomègues {
+    height: 195px;
+    width: 228px;
+  }
 
-.Calanques {
-  margin-top: 0px;
-}
+  .Fort_Pomègues img {
+    height: 150px;
+    width: 228px;
+  }
 
-.un {
-  margin-bottom: 90px;
-  margin-left: 50px;
-}
+  /* Iles du Frioul */
 
-.deux {
-  margin-left: 50px;
-}
-/* Footer */
+  .Frioul {
+    width: 228px;
+    height: 155px;
+  }
 
-Footer {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+  .Frioul img {
+    width: 228px;
+  }
 
-.A_propos {
-  margin-left: 0px;
-}
+  /* Parc National des Calanques */
 
-.Heb {
-  margin-left: 0px;
-}
+  .Calanques {
+    height: 380px;
+    width: 240px;
+  }
 
-.Assist {
-  margin-left: 0px;
+  .Calanques img {
+    height: 330px;
+    width: 240px;
+  }
+
+  /* Notre-Dame-de-la-Garde */
+
+  .Notre_dame {
+    height: 195px;
+    width: 228px;
+    margin-right: 0px;
+  }
+
+  .Notre_dame img {
+    height: 150px;
+    width: 228px;
+  }
+
+  /* Parc Longchamp */
+
+  .Longchamp {
+    width: 228px;
+    height: 155px;
+  }
+
+  .Longchamp img {
+    width: 228px;
+  }
+
+  /* Footer */
+
+  .A_propos {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .Heb {
+    margin-left: 50px;
+    font-size: 14px;
+  }
+
+  .Assist {
+    margin-left: 50px;
+    font-size: 14px;
+  }
 }

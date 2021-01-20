@@ -1,399 +1,739 @@
-.page_Reservia {
-  width: auto;
-  margin: auto;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  overflow-x: hidden;
-}
-/* logo */
-
-.logo {
-  padding-left: 10px;
-}
-
-header {
-  display: flex;
-  flex-flow: row wrap;
-  width: auto;
-}
-
-header ul li {
-  padding-left: 0px;
-}
-
-header ul {
-  border-bottom: 2px solid #deebff;
-  padding-bottom: 10px;
-  padding-right: 80px;
-  padding-left: 0px;
-}
-
-header a:hover {
-  border-top: none;
-  border-bottom: 3px solid blue;
-  padding-bottom: 10px;
-}
-
-#Inscription a:hover {
-  border: none;
-}
-
-#Inscription {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  padding-top: 45px;
-  padding-right: 0px;
-}
-
-.Hébergement a {
-  padding-left: 38px;
-  padding-right: 50px;
-}
-
-.Activités a {
-  padding-right: 50px;
-  padding-left: 65px;
-}
-
-/* Section en bas */
-
-/* Input */
-
-.Titre_secondaire {
-  margin-left: 10px;
-}
-
-.Input {
-  margin-left: 10px;
-}
-
-input {
-  width: 235px;
-  font-weight: bold;
-  padding-top: 12px;
-  padding-left: 20px;
-  font-size: 19px;
-}
-
-.fa-map-marker-alt {
-  font-size: 15px;
-  padding: 14px;
-  padding-left: 17px;
-  padding-right: 18px;
-}
-
-.Filters_search {
-  margin-left: 0px;
-  width: 350px;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
-.Filters_search p {
-  font-size: 16px;
-  padding-top: 5px;
-}
-
-.blue_button {
-  padding-top: 10px;
-  padding-bottom: 28px;
-  padding-right: 33px;
-  padding-left: 14px;
-  border-radius: 14px;
-  cursor: pointer;
-}
-
-.blue_button span {
-  visibility: hidden;
-  position: absolute;
-}
-
-.fa-search {
-  visibility: visible;
-  font-size: 18px;
-  margin-top: 0px;
-}
-
-/* Filtre */
-
-.Filtre {
-  display: flex;
-  width: 425px;
-  flex-direction: column;
-  padding-top: 10px;
-}
-
-#Eco {
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-top: 20px;
-  width: 185px;
-  height: 52px;
-  border: 2px solid #deebff;
-}
-
-#Famille {
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-top: 0px;
-  width: 140px;
-  height: 52px;
-  border: 2px solid #deebff;
-  position: absolute;
-  top: 411px;
-  left: 215px;
-}
-
-#Romantique {
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-top: 0px;
-  width: 180px;
-  height: 52px;
-  border: 2px solid #deebff;
-}
-
-#Animaux {
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-top: 0px;
-  width: 240px;
-  height: 52px;
-  border: 2px solid #deebff;
-}
-
-.titre_prin {
-  display: block;
-  margin-left: 10px;
-}
-
-#Eco h4 {
-  font-size: 17px;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-
-#Famille h4 {
-  margin-left: 10px;
-  margin-top: 15px;
-  font-size: 18px;
-}
-
-#Romantique h4 {
-  font-size: 17px;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-
-#Animaux h4 {
-  font-size: 17px;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-
-.fa-child {
-  font-size: 21px;
-  padding: 14px;
-}
-
-.fa-money-bill-wave {
-  font-size: 21px;
-  padding: 14px;
-}
-
-.fa-heart {
-  font-size: 21px;
-  padding: 14px;
-}
-
-.fa-dog {
-  font-size: 21px;
-  padding: 14px;
-}
-
-/* Info */
-
-.Info {
-  width: 360px;
-  font-size: 17px;
-  margin-left: 10px;
-}
-
-/* Aside */
-
-.titre_pop {
-  padding-left: 15px;
-  font-size: 14px;
-}
-
-.titre_pop h2 {
-  padding-top: 2px;
-}
-
-.titre_pop i {
-  font-size: 20px;
-  position: absolute;
-  left: 215px;
-}
-aside {
-  margin-left: 0px;
-  border-radius: 0px;
-  width: 380px;
-  height: 590px;
-}
-
-.pop {
-  margin-left: 10px;
-  margin-bottom: 10px;
-  width: 355px;
-}
-
-.img_pop {
-  width: 140px;
-}
-
-.populaire {
-  margin-bottom: 30px;
-}
-aside figcaption {
-  font-size: 16px;
-  padding-left: 22px;
-}
-
-aside figcaption p {
-  margin-top: 8px;
-}
-
-.stars_pop {
-  font-size: 12px;
-  padding-top: 26px;
-}
-
-/* Section gauche */
-
-.corps_haut {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-top: 300px;
-  width: 400px;
-}
-.gauche {
-  background-color: white;
-  margin-top: 250px;
-  margin-left: 0px;
-}
-
-#Hébergement {
-  padding-top: 25px;
-  padding-bottom: 20px;
-  padding-left: 15px;
-  font-size: 21px;
-}
-
-.gauche {
-  margin-top: 10px;
-}
-
-.list_heb {
-  display: flex;
-  flex-direction: column;
-}
-
-.hebergement {
-  width: 355px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.section_heb {
-  width: 345px;
-  padding-right: 2px;
-  padding-top: 1px;
-}
-
-.Afficher_plus {
-  padding-top: 13px;
-  margin-left: 15px;
-  font-size: 16px;
-}
-.stars {
-  font-size: 12px;
-}
-
-/* Section bas */
-
-#Activités {
-  margin-left: 15px;
-  margin-top: 45px;
-  font-size: 21px;
-}
-
-.bas {
-  display: block;
-  flex-direction: column;
-  margin-left: 10px;
-}
-
-.bas figure {
-  width: 355px;
-  height: 170px;
-  margin-top: 10px;
-}
-
-.bas figure img {
-  width: 353px;
-  height: 120px;
-}
-
-.un {
-  margin-left: 0px;
-}
-
-.deux {
-  margin-left: 0px;
-}
-
-/* Footer */
-
-Footer {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-/* A propos */
-
-.A_propos {
-  margin-left: 18px;
-  margin-top: 40px;
-}
-
-.A_propos ul li {
-  line-height: 30px;
-}
-
-/* Nos hébergements */
-
-.Heb {
-  margin-left: 18px;
-  margin-top: 0px;
-}
-
-.Heb ul li {
-  line-height: 30px;
-}
-
-/* Assistance */
-
-.Assist {
-  margin-left: 18px;
-  margin-top: 0px;
-}
-
-.Assist ul li {
-  line-height: 30px;
+@media screen and (max-width: 376px) {
+  #Page_Reservia {
+    overflow-x: hidden;
+    min-width: 375px;
+  }
+
+  /* Logo */
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  /* Header */
+
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+  }
+
+  header ul {
+    margin-top: 30px;
+    padding-left: 0px;
+    border-bottom: 2px solid #deebff;
+    padding-bottom: 10px;
+  }
+
+  header a:hover {
+    border-top: none;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+  }
+
+  .Hébergement a {
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+
+  .Activités a {
+    padding-right: 55px;
+    padding-left: 58px;
+  }
+
+  #Inscription a {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+    padding: 0px;
+    border: none;
+  }
+
+  /* Section du bas */
+
+  .Filters_search {
+    margin-left: 15px;
+  }
+
+  /* Titre secondaire */
+
+  .Titre_secondaire {
+    max-width: 320px;
+  }
+
+  .Titre_secondaire h3 {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .Titre_secondaire p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  /* Input */
+
+  input {
+    width: 220px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .Input {
+    margin-top: 8px;
+  }
+
+  .fa-map-marker-alt {
+    font-size: 15px;
+    padding: 14px;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  /* Button */
+
+  .blue_button span {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .fa-search {
+    visibility: visible;
+    font-size: 18px;
+  }
+
+  .blue_button {
+    padding-top: 10px;
+    padding-bottom: 28px;
+    padding-right: 33px;
+    padding-left: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+
+  /* Filtre */
+
+  .Filtre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  /* Eco */
+
+  #Eco {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 175px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Famille */
+
+  #Famille {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 130px;
+    height: 44px;
+    border: 2px solid #deebff;
+    position: absolute;
+    top: 380px;
+    left: 215px;
+  }
+
+  /* Romantique */
+
+  #Romantique {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 165px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Animaux */
+
+  #Animaux {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 220px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Icones */
+
+  .fa-child {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-money-bill-wave {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-dog {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  /* Titre filtre */
+
+  .Filtre h4 {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .Filtre h3 {
+    font-size: 19px;
+    margin-bottom: -2px;
+    margin-left: 3px;
+  }
+
+  /*  Hebergements + Populaires*/
+
+  .corps_haut {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Populaire */
+
+  .titre_pop {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+
+  .titre_pop i {
+    font-size: 21px;
+    position: absolute;
+    left: 230px;
+    padding-top: 23px;
+  }
+
+  .populaire {
+    max-width: 376px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+
+  .pop {
+    margin-left: 20px;
+    width: 335px;
+  }
+
+  .pop figcaption {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 17px;
+  }
+
+  /* Hebergement */
+
+  #Hébergement {
+    font-size: 21px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .gauche {
+    background-color: white;
+    max-width: 375px;
+  }
+
+  .list_heb {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+  }
+
+  .hebergement {
+    width: 335px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #deebff;
+  }
+
+  .section_heb {
+    width: 323px;
+  }
+
+  .hebergement figcaption {
+    padding-left: 15px;
+  }
+
+  .stars {
+    font-size: 13px;
+  }
+
+  .Afficher_plus {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  /* Section bas */
+
+  #Activités {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  .bas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .bas figure {
+    width: 335px;
+    height: 195px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+  }
+
+  .bas figure img {
+    width: 335px;
+    height: 145px;
+  }
+
+  .bas figcaption {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .un {
+    margin-left: 0px;
+  }
+
+  .deux {
+    margin-left: 0px;
+  }
+
+  /* Footer */
+
+  Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* A propos */
+
+  .A_propos {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .A_propos ul li {
+    line-height: 30px;
+  }
+
+  /* Nos hébergements */
+
+  .Heb {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .Heb ul li {
+    line-height: 30px;
+  }
+
+  /* Assistance */
+
+  .Assist {
+    margin-left: 18px;
+    margin-top: 0px;
+  }
+
+  .Assist ul li {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 377px) {
+  #Page_Reservia {
+    overflow-x: hidden;
+  }
+
+  /* Logo */
+
+  .logo {
+    position: absolute;
+    top: 20px;
+  }
+
+  /* Header */
+
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 65px;
+  }
+
+  header ul {
+    padding-left: 0px;
+    border-bottom: 2px solid #deebff;
+    padding-bottom: 10px;
+  }
+
+  header a:hover {
+    border-top: none;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+  }
+
+  .Hébergement a {
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+
+  .Activités a {
+    padding-right: 55px;
+    padding-left: 58px;
+  }
+
+  #Inscription a {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+    padding: 0px;
+    border: none;
+  }
+  /* Section du bas */
+
+  .Filters_search {
+    margin-left: 15px;
+  }
+
+  /* Titre secondaire */
+
+  .Titre_secondaire {
+    max-width: 320px;
+  }
+
+  .Titre_secondaire h3 {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .Titre_secondaire p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  /* Input */
+
+  input {
+    width: 220px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .Input {
+    margin-top: 8px;
+  }
+
+  .fa-map-marker-alt {
+    font-size: 15px;
+    padding: 14px;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  /* Button */
+
+  .blue_button span {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .fa-search {
+    visibility: visible;
+    font-size: 18px;
+  }
+
+  .blue_button {
+    padding-top: 10px;
+    padding-bottom: 28px;
+    padding-right: 33px;
+    padding-left: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+
+  /* Filtre */
+
+  .Filtre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  /* Eco */
+
+  #Eco {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 175px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Famille */
+
+  #Famille {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 130px;
+    height: 44px;
+    border: 2px solid #deebff;
+    position: absolute;
+    top: 380px;
+    left: 215px;
+  }
+
+  /* Romantique */
+
+  #Romantique {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 165px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Animaux */
+
+  #Animaux {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 220px;
+    height: 44px;
+    border: 2px solid #deebff;
+  }
+
+  /* Icones */
+
+  .fa-child {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-money-bill-wave {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-heart {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .fa-dog {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  /* Titre filtre */
+
+  .Filtre h4 {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .Filtre h3 {
+    font-size: 19px;
+    margin-bottom: -2px;
+    margin-left: 3px;
+  }
+
+  /*  Hebergements + Populaires*/
+
+  .corps_haut {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Populaire */
+
+  .titre_pop {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+
+  .titre_pop i {
+    font-size: 21px;
+    position: absolute;
+    left: 230px;
+    padding-top: 23px;
+  }
+
+  .populaire {
+    max-width: 376px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+
+  .pop {
+    margin-left: 20px;
+    width: 335px;
+  }
+
+  .pop figcaption {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 17px;
+  }
+
+  /* Hebergement */
+
+  #Hébergement {
+    font-size: 21px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .gauche {
+    background-color: white;
+    max-width: 375px;
+  }
+
+  .list_heb {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+  }
+
+  .hebergement {
+    width: 335px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #deebff;
+  }
+
+  .section_heb {
+    width: 323px;
+  }
+
+  .hebergement figcaption {
+    padding-left: 15px;
+  }
+
+  .stars {
+    font-size: 13px;
+  }
+
+  .Afficher_plus {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  /* Section bas */
+
+  #Activités {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  .bas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .bas figure {
+    width: 335px;
+    height: 195px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+  }
+
+  .bas figure img {
+    width: 335px;
+    height: 145px;
+  }
+
+  .bas figcaption {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .un {
+    margin-left: 0px;
+  }
+
+  .deux {
+    margin-left: 0px;
+  }
+
+  /* Footer */
+
+  Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* A propos */
+
+  .A_propos {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .A_propos ul li {
+    line-height: 30px;
+  }
+
+  /* Nos hébergements */
+
+  .Heb {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .Heb ul li {
+    line-height: 30px;
+  }
+
+  /* Assistance */
+
+  .Assist {
+    margin-left: 18px;
+    margin-top: 0px;
+  }
+
+  .Assist ul li {
+    line-height: 30px;
+  }
 }

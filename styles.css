@@ -1,58 +1,36 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+/* Element general */
+
+#Page_Reservia {
+  max-width: 1440px;
+  margin: auto;
 }
 
 body {
   font-family: "Raleway", sans-serif;
 }
 
-/* Page + header */
-
-.page_Reservia {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  width: auto;
-}
+/* header */
 
 header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-top: 25px;
 }
 
-/* logo */
-
-.logo {
-  display: flex;
-  padding-top: 30px;
-  padding-left: 200px;
-}
-
-/* lien navigation */
+/* lien de navigation */
 
 header a {
   text-decoration: none;
   color: #0065fc;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 header ul {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
-  padding-top: 40px;
-  padding-right: 340px;
-  padding-left: 830px;
-}
-
-header ul li {
-  padding-left: 30px;
-  font-size: 16px;
 }
 
 header a:hover {
@@ -60,90 +38,106 @@ header a:hover {
   padding-top: 38px;
 }
 
+/* Lien Inscritpion */
+
 .Inscription {
   font-weight: bold;
 }
 
-/* section en bas */
+/* section bas */
 
 .Filters_search {
-  margin-left: 200px;
-  height: 260px;
-  width: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .Titre_secondaire {
-  padding-bottom: 20px;
-  line-height: 28px;
+  margin-bottom: 8px;
 }
 
-/* Input */
+.Titre_secondaire h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.Titre_secondaire p {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+/* Barre de recherche input */
 
 .Input {
   display: flex;
-  flex-direction: row;
-}
-
-.blue_button {
-  padding: 10px;
-  padding-right: 16px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #0065fc;
-  color: white;
-  border: 1px black;
-}
-
-.fa-map-marker-alt {
-  border: black;
-  padding: 14px;
-  padding-right: 16px;
-  padding-left: 16px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: #f2f2f2;
-  font-size: 15px;
-}
-.fa-search {
-  visibility: hidden;
-  position: absolute;
+  flex-flow: row nowrap;
 }
 
 input {
-  border: 1px black;
-  width: 200px;
-  padding-left: 12px;
-  padding-top: 15px;
-  font-size: 14px;
+  border: 1px solid rgb(242, 242, 242);
+  width: 170px;
+  padding-left: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 input:focus {
   outline: none;
 }
 
+/* logo Input */
+
+.fa-map-marker-alt {
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+
+/* Bouton Input Desktop */
+
+.blue_button {
+  border: none;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 18px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0065fc;
+  color: white;
+}
+
+.fa-search {
+  visibility: hidden;
+  position: absolute;
+}
+
 /* Filtres */
 
+.Filtre {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 30px;
+}
+
 .titre_prin {
-  padding-top: 10px;
+  margin: 0px;
+  margin-top: 10px;
 }
 
 /* Eco */
 
-.Filtre {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row nowrap;
-  margin-top: 30px;
-  margin-left: 5px;
-}
-
 #Eco {
   cursor: pointer;
   display: flex;
-  margin-left: 30px;
-  width: 170px;
-  height: 43px;
-  border: 1px solid #dcdcdc;
+  flex-flow: row nowrap;
+  margin-left: 28px;
+  height: 37px;
+  border: 1px solid #deebff;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
   border-top-right-radius: 32px;
@@ -154,35 +148,30 @@ input:focus {
 .fa-money-bill-wave {
   color: #0065fc;
   background-color: #deebff;
-  padding: 13px;
+  padding: 12px;
+  font-size: 14px;
   border-radius: 32px;
 }
 
 .titre_fil {
   margin-top: 11px;
-  margin-left: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
+  font-size: 15px;
 }
 
 #Eco:hover {
   background-color: #deebff;
 }
-
-/* Famille */
-
-.Filtre {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row nowrap;
-  margin-top: 20px;
-}
+/* Familial */
 
 #Famille {
   cursor: pointer;
   display: flex;
-  margin-left: 30px;
-  width: 130px;
-  height: 43px;
-  border: 1px solid #dcdcdc;
+  flex-flow: row nowrap;
+  margin-left: 20px;
+  height: 39px;
+  border: 1px solid #deebff;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
   border-top-right-radius: 32px;
@@ -193,17 +182,8 @@ input:focus {
 .fa-child {
   color: #0065fc;
   background-color: #deebff;
-  padding: 13px;
-  padding-right: 14px;
-  padding-left: 14px;
+  padding: 12px;
   border-radius: 32px;
-}
-
-.Filtre {
-  display: flex;
-  flex-direction: row;
-  flex-flow: row nowrap;
-  margin-top: 20px;
 }
 
 #Famille:hover {
@@ -214,9 +194,10 @@ input:focus {
 #Romantique {
   cursor: pointer;
   display: flex;
-  margin-left: 30px;
-  width: 165px;
-  border: 1px solid #dcdcdc;
+  flex-flow: row nowrap;
+  margin-left: 20px;
+  height: 39px;
+  border: 1px solid #deebff;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
   border-top-right-radius: 32px;
@@ -227,22 +208,29 @@ input:focus {
 .fa-heart {
   color: #0065fc;
   background-color: #deebff;
-  padding: 13px;
+  padding: 12px;
   border-radius: 32px;
+}
+
+.titre_fil {
+  margin-top: 11px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 15px;
 }
 
 #Romantique:hover {
   background-color: #deebff;
 }
-
-/* Animaux */
+/* Animaux autorisés */
 
 #Animaux {
   cursor: pointer;
   display: flex;
-  margin-left: 30px;
-  width: 215px;
-  border: 1px solid #dcdcdc;
+  flex-flow: row nowrap;
+  margin-left: 20px;
+  height: 39px;
+  border: 1px solid #deebff;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
   border-top-right-radius: 32px;
@@ -253,9 +241,17 @@ input:focus {
 .fa-dog {
   color: #0065fc;
   background-color: #deebff;
-  padding: 13px;
+  padding: 12px;
   border-radius: 32px;
 }
+
+.titre_fil {
+  margin-top: 11px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
 #Animaux:hover {
   background-color: #deebff;
 }
@@ -264,14 +260,14 @@ input:focus {
 
 .Info {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   margin-top: 30px;
-  margin-left: 8px;
+  margin-bottom: 25px;
 }
 
 .fa-info-circle {
   color: #0065fc;
-  padding-right: 10px;
+  margin-right: 10px;
   font-size: 20px;
 }
 
@@ -279,39 +275,39 @@ input:focus {
 
 .corps_haut {
   display: flex;
-  width: 1600px;
 }
 
-/* Section Gauche */
+/* Hébergements à Marseille */
 
 .gauche {
-  margin-left: 200px;
   background-color: #f2f2f2;
-  width: 900px;
-  height: auto;
   border-radius: 28px;
+  min-width: 914px;
+  max-width: 915px;
 }
 
 #Hébergement {
-  padding-top: 35px;
-  padding-left: 40px;
-  padding-bottom: 25px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .list_heb {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
 }
 
+/* Carte hébergement */
+
 .hebergement {
+  margin: 0px;
+  margin-left: 40px;
+  margin-bottom: 35px;
   background-color: white;
   width: 250px;
   height: 210px;
-  margin-bottom: 35px;
-  border-radius: 28px;
   border: 1px solid #deebff;
-  box-shadow: 1px 1px 5px #deebff;
+  border-radius: 28px;
 }
 
 .section_heb {
@@ -321,24 +317,30 @@ input:focus {
   border-top-right-radius: 26px;
   border-top-left-radius: 26px;
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 6px;
 }
+
+/* Figcaption Hebergement */
 
 .gauche a {
   text-decoration: none;
   color: black;
 }
 
+.gauche figcaption h3 {
+  margin: 0px;
+}
+
 .gauche figcaption {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 17px;
-  line-height: 20px;
+  line-height: 6px;
   font-size: 14px;
 }
 
 .stars {
   color: #0065fc;
-  padding-top: 7px;
+  padding-top: 8px;
   font-size: 14px;
 }
 
@@ -350,47 +352,47 @@ input:focus {
   margin-top: 5px;
   margin-left: 40px;
 }
+/* Les plus populaires */
 
-/* Aside */
-
-aside {
+.populaire {
   display: flex;
-  background-color: #f2f2f2;
-  height: 640px;
-  width: 435px;
-  padding-right: 35px;
-  border-radius: 28px;
-  margin-left: 45px;
   flex-direction: column;
+  margin-left: 45px;
+  background-color: #f2f2f2;
+  border-radius: 28px;
+  height: 650px;
 }
 
+.titre_pop h2 {
+  margin-bottom: 0px;
+}
 .titre_pop {
   display: flex;
-  padding-top: 35px;
-  padding-left: 40px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-bottom: 19px;
 }
 
 .titre_pop i {
   padding-left: 110px;
-  padding-top: 5px;
-  font-size: 22px;
+  padding-top: 28px;
+  font-size: 20px;
 }
 
 .pop {
+  display: flex;
   width: 360px;
   height: 145px;
   background-color: white;
-  display: flex;
   margin-left: 35px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-radius: 15px;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .img_pop {
   width: 145px;
-  height: 141px;
+  height: 137px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -398,16 +400,22 @@ aside {
   padding-left: 4px;
 }
 
+/* Figcaption les plus populaires */
+
+aside figcaption h3 {
+  margin: 0px;
+}
+
 aside figcaption {
-  padding-top: 15px;
-  padding-left: 30px;
+  padding-top: 18px;
+  padding-left: 25px;
   font-size: 15px;
-  line-height: 22px;
+  line-height: 16px;
 }
 
 .stars_pop {
   color: #0065fc;
-  padding-top: 30px;
+  padding-top: 25px;
   font-size: 14px;
 }
 
@@ -415,26 +423,27 @@ aside figcaption {
 
 .bas {
   display: flex;
-  margin-left: 200px;
-  width: auto;
 }
 
 #Activités {
-  margin-left: 200px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
+.bas h4 {
+  margin: 0px;
+}
 /* Vieux port */
 
 .un {
-  margin-left: 52px;
-  margin-right: 52px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .Vieux_port {
   height: 420px;
   width: 290px;
+  margin: 0px;
   border: 1px solid #deebff;
   border-radius: 22px;
   box-shadow: 1px 1px 5px #deebff;
@@ -442,7 +451,7 @@ aside figcaption {
 
 .Vieux_port img {
   height: 370px;
-  width: 288px;
+  width: 290px;
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -458,13 +467,14 @@ aside figcaption {
 .Fort_Pomègues {
   height: 230px;
   width: 322px;
+  margin-top: 0px;
   border: 1px solid #deebff;
   border-radius: 22px;
   box-shadow: 1px 1px 5px #deebff;
 }
 
 .Fort_Pomègues img {
-  width: 320px;
+  width: 322px;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 20px;
@@ -488,7 +498,7 @@ aside figcaption {
 }
 
 .Frioul img {
-  width: 320px;
+  width: 322px;
   height: 110px;
   object-fit: cover;
   border-top-left-radius: 20px;
@@ -505,6 +515,7 @@ aside figcaption {
 .Calanques {
   height: 420px;
   width: 290px;
+  margin: 0px;
   border: 1px solid #deebff;
   border-radius: 22px;
   box-shadow: 1px 1px 5px #deebff;
@@ -512,7 +523,7 @@ aside figcaption {
 
 .Calanques img {
   height: 370px;
-  width: 288px;
+  width: 290px;
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -526,11 +537,13 @@ aside figcaption {
 /* Notre-Dame-de-la-Garde */
 
 .deux {
-  margin-left: 52px;
+  margin-left: 55px;
 }
 .Notre_dame {
   height: 230px;
   width: 322px;
+  margin-top: 0px;
+  margin-left: 0px;
   border: 1px solid #deebff;
   border-radius: 22px;
   box-shadow: 1px 1px 5px #deebff;
@@ -558,10 +571,11 @@ figcaption {
   border-radius: 22px;
   box-shadow: 1px 1px 5px #deebff;
   margin-top: 30px;
+  margin-left: 0px;
 }
 
 .Longchamp img {
-  width: 320px;
+  width: 322px;
   height: 110px;
   object-fit: cover;
   border-top-left-radius: 20px;
@@ -576,17 +590,19 @@ figcaption {
 /* Footer */
 
 Footer {
-  width: 1800px;
   display: flex;
   margin-top: 50px;
   background-color: #f2f2f2;
   font-size: 17px;
 }
 
+Footer ul {
+  padding-left: 0px;
+}
 /* A propos */
 
 .A_propos {
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 45px;
 }
@@ -609,7 +625,7 @@ Footer {
 /* Nos hébergements */
 
 .Heb {
-  margin-left: 250px;
+  margin-left: 310px;
   margin-top: 30px;
   margin-bottom: 45px;
 }
@@ -632,7 +648,7 @@ Footer {
 /* Assistance */
 
 .Assist {
-  margin-left: 250px;
+  margin-left: 330px;
   margin-top: 30px;
   margin-bottom: 45px;
 }
