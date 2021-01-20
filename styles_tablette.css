@@ -221,6 +221,10 @@
     max-width: 600px;
   }
 
+  #Animaux {
+    margin-left: 100px;
+  }
+
   /* Hebergement + populaire */
 
   .corps_haut {
