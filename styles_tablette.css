@@ -20,7 +20,8 @@
   }
 
   .titre_pop i {
-    padding-left: 72%;
+    padding-left: 50px;
+    padding-top: 28px;
   }
 
   .populaire {
@@ -195,7 +196,7 @@
   /* Les plus populaires */
 
   .titre_pop i {
-    padding-left: 60%;
+    padding-left: 50px;
   }
 
   .populaire {
@@ -280,7 +281,7 @@
   /* Les plus populaires */
 
   .titre_pop i {
-    padding-left: 49%;
+    padding-left: 50px;
   }
 
   .populaire {
