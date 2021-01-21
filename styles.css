@@ -263,6 +263,7 @@ input:focus {
   flex-flow: row nowrap;
   margin-top: 30px;
   margin-bottom: 25px;
+  margin-left: 10px;
 }
 
 .fa-info-circle {
