@@ -13,23 +13,52 @@
 
   /* Les plus populaires */
 
+  .titre_pop {
+    height: 60px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .titre_pop i {
+    padding-left: 72%;
+  }
+
   .populaire {
-    max-width: 550px;
-    margin-left: 0px;
+    max-width: 98%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin: 0px;
   }
 
   .pop {
-    min-width: 460px;
-    max-width: 470px;
+    min-width: 10%;
+    max-width: 30%;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 5px;
+  }
+
+  .img_pop {
+    height: 173px;
+  }
+  .pop figcaption {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .stars_pop {
+    padding-top: 5px;
   }
 
   /* Hébergement*/
   .gauche {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
   }
   /* Activités */
 
@@ -47,12 +76,12 @@
   /* Vieux port */
 
   .Vieux_port {
-    width: 220px;
+    width: 240px;
     height: 400px;
   }
 
   .Vieux_port img {
-    width: 220px;
+    width: 240px;
     height: 352px;
   }
 
@@ -85,12 +114,12 @@
   /* Parc National */
 
   .Calanques {
-    width: 220px;
+    width: 240px;
     height: 410px;
   }
 
   .Calanques img {
-    width: 220px;
+    width: 240px;
     height: 352px;
   }
 
@@ -139,7 +168,7 @@
   }
 }
 
-@media screen and (max-width: 1031px) and (min-width: 760px) {
+@media screen and (max-width: 1031px) and (min-width: 810px) {
   #Page_Reservia {
     overflow-x: hidden;
     margin-left: 2px;
@@ -165,16 +194,31 @@
 
   /* Les plus populaires */
 
+  .titre_pop i {
+    padding-left: 60%;
+  }
+
   .populaire {
-    margin-left: 0px;
-    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     margin-bottom: 20px;
+  }
+
+  .pop {
+    width: 89%;
   }
 
   /* Hébergements */
 
+  .gauche {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+  }
+
   .hebergement {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 
   /*  Activités */
@@ -183,6 +227,7 @@
     display: flex;
     flex-flow: row wrap;
     max-width: 990px;
+    margin-left: 60px;
   }
 
   .deux {
@@ -207,7 +252,7 @@
   }
 }
 
-@media screen and (max-width: 759px) and (min-width: 550px) {
+@media screen and (max-width: 809px) and (min-width: 550px) {
   #Page_Reservia {
     overflow-x: hidden;
     margin-left: 5px;
@@ -234,25 +279,44 @@
 
   /* Les plus populaires */
 
+  .titre_pop i {
+    padding-left: 49%;
+  }
+
   .populaire {
-    margin-left: 0px;
-    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
     margin-bottom: 20px;
+  }
+
+  .pop {
+    width: 91%;
+    margin-left: 15px;
   }
 
   /* Hebergement */
 
+  .gauche {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 570px;
+  }
+
   .list_heb {
     display: flex;
-    flex-direction: row;
-    max-height: 800px;
-    max-width: 700px;
+    flex-flow: row wrap;
+    width: 700px;
   }
 
   .hebergement {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin: Opx;
   }
 
+  .Afficher_plus {
+    margin-top: 0px;
+  }
   /* Activités */
 
   #Activités {
@@ -270,7 +334,7 @@
 
   .un {
     margin-left: 35px;
-    margin-right: 0px;
+    margin-right: 10px;
   }
 
   .deux {
