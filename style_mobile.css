@@ -2,6 +2,11 @@
   #Page_Reservia {
     overflow-x: hidden;
     min-width: 375px;
+    max-width: 376px;
+  }
+
+  body {
+    margin: 0px;
   }
 
   /* Logo */
@@ -372,6 +377,10 @@
 @media screen and (max-width: 549px) and (min-width: 377px) {
   #Page_Reservia {
     overflow-x: hidden;
+  }
+
+  body {
+    margin: 0px;
   }
 
   /* Logo */
