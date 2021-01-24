@@ -213,11 +213,22 @@
   .gauche {
     margin-left: auto;
     margin-right: auto;
-    min-width: 800px;
+    min-width: 700px;
+    max-width: 750px;
+  }
+
+  .list_heb {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .hebergement {
-    margin-left: 10px;
+    margin-left: 30px;
+    width: 330px;
+  }
+
+  .section_heb {
+    width: 318px;
   }
 
   /*  Activités */
@@ -444,5 +455,58 @@
 
   #Romantique {
     margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1107px) and (min-width: 926px) {
+  #Activités {
+    margin-left: 30px;
+  }
+
+  .Vieux_port {
+    width: 300px;
+  }
+
+  .Vieux_port img {
+    width: 300px;
+  }
+
+  .Calanques {
+    width: 300px;
+  }
+
+  .Calanques img {
+    width: 300px;
+  }
+
+  .Fort_Pomègues {
+    width: 440px;
+  }
+
+  .Fort_Pomègues IMG {
+    width: 440px;
+  }
+
+  .Frioul {
+    width: 440px;
+  }
+
+  .Frioul img {
+    width: 440px;
+  }
+
+  .Notre_dame {
+    width: 440px;
+  }
+
+  .Notre_dame img {
+    width: 440px;
+  }
+
+  .Longchamp {
+    width: 440px;
+  }
+  .Longchamp img {
+    width: 440px;
   }
 }
