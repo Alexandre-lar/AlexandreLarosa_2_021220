@@ -60,6 +60,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    max-width: 930px;
   }
   /* Activités */
 
@@ -213,8 +214,8 @@
   .gauche {
     margin-left: auto;
     margin-right: auto;
-    min-width: 700px;
-    max-width: 750px;
+    max-width: 800px;
+    min-width: 860px;
   }
 
   .list_heb {
