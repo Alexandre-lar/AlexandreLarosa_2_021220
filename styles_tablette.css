@@ -344,19 +344,20 @@
   .bas {
     display: flex;
     flex-flow: row wrap;
+    width: 700px;
   }
   .bas figure {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 0px;
   }
 
   .un {
-    margin-left: 35px;
+    margin-left: 30px;
     margin-right: 10px;
   }
 
   .deux {
-    margin-left: 35px;
+    margin-left: 30px;
     margin-right: 0px;
   }
 
